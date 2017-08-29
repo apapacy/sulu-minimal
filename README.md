@@ -32,3 +32,8 @@ sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:`whoami`:rwX var/cache var/logs var/
 sudo apt-get install php-gd
 sudo apt-get install php-curl
 composer install
+
+bin/adminconsole sulu:build dev
+php bin/console assets:install
+
+php bin/console sulu:translate:export

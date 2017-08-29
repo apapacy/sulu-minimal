@@ -11,8 +11,9 @@
     <cacheLifetime>144000</cacheLifetime>
 
     <meta>
-        <title lang="en">Default</title>
-        <title lang="de">Standard</title>
+        <title lang="en">Default Article</title>
+        <title lang="ua">Standard Article</title>
+        <title lang="ru">Standard Article</title>
     </meta>
 
     <tag name="sulu_article.type" type="article"/>
@@ -23,7 +24,8 @@
                 <property name="title" type="text_line" mandatory="true">
                     <meta>
                         <title lang="en">Title</title>
-                        <title lang="de">Titel</title>
+                        <title lang="ua">Titel</title>
+                        <title lang="ru">Titel</title>
                     </meta>
 
                     <params>
@@ -40,7 +42,8 @@
                 <property name="routePath" type="route">
                     <meta>
                         <title lang="en">Resourcelocator</title>
-                        <title lang="de">Adresse</title>
+                        <title lang="ru">Adresse</title>
+                        <title lang="ru">Adresse</title>
                     </meta>
                 </property>
             </properties>
@@ -49,7 +52,8 @@
         <property name="article" type="text_editor">
             <meta>
                 <title lang="en">Article</title>
-                <title lang="de">Artikel</title>
+                <title lang="ua">Artikel</title>
+                <title lang="ru">Artikel</title>
             </meta>
         </property>
     </properties>

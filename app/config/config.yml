@@ -159,7 +159,7 @@ ongr_elasticsearch:
                 - SuluArticleBundle
 
 sulu_article:
-    display_tab_all: false
+    display_tab_all: true
 
 dubture_f_fmpeg:
     ffmpeg_binary: /usr/local/bin/ffmpeg # path to ffmpeg
